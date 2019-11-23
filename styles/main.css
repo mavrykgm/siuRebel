@@ -1,0 +1,53 @@
+/* CSS Document */
+body{
+	background-color: #ece2c9;
+	font-family:roboto;
+
+}
+.header_wrap > *{
+	verticle-align:middle;
+}
+img{
+	height:20px;
+	width: auto;
+	vertical-align: middle;
+}
+.header{
+	font-family:renegado;
+	font-size: 1.2em;
+	color: #f77922;
+	text-shadow: 2px 1px 1px black;
+	margin: 1em 1em;
+}
+nav{
+	display:block;
+}
+nav a{
+	color: black;
+	margin-left:1.2em;
+  	text-decoration: none;}
+nav a:hover {opacity: 0.5;}
+.groupbox{
+	border:1px inset;
+	width: 80%;
+	background-color:#e5d4cd;
+}
+form{
+	margin: 2em 1.2em 1.2em;
+	
+}
+label{
+	padding-right:3px;
+}
+.line_wrap_outer{
+	display:flex;
+	margin: 10px 0 ;
+}
+.line_wrap_inner{
+	display:block;
+	margin: 0 10px 0 0;
+}
+input:focus{
+	box-shadow: 0 0 10px 1px #2ff923;
+}
+
